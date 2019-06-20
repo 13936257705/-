@@ -26,6 +26,9 @@
 	color:red;
 	font-weight: bold;
 }
+.head ._left h5 a span:hover{
+	color:rgb(255,0,0,0.5);
+}
 .head ._right{
 	float:right;
 	height:29px;
@@ -142,7 +145,6 @@
 .banner{
 	height:330px;
 	border-bottom:2px solid #fe6b1d;
-	/* background:red; */
 }
 .banner ._lef{
 	float:left;
@@ -156,12 +158,12 @@
 	width:206px;
 }
 .banner ._lef ul li{
-	float:left
 	height:37px;
 	border-bottom:1px solid #f2f0f1;
 	line-height:37px;
 	padding-left:15px;
 	font-weight:bold;
+	box-sizing: border-box;
 }
 .banner ._lef ul li img{
 	float:right;
@@ -171,13 +173,15 @@
 }
 .banner ._ol{
 	width:580px;
-	height:310px;
+	height:294px;
 	position:absolute;
 	top:0;
-	left:205px;
+	left:206px;
 	border :1px solid #fe6b1d;
-	/* border-left:none; */
+	border-left:none;
 	display:none;
+	background:white;
+	z-index:9999999;
 }
 .banner ._ol ol li{
 	width:500px;
@@ -194,24 +198,84 @@
 	color:red;
 	font-weight:bold;
 }
-/* .banner ._cen{
+.banner ._cen{
 	float:left;
-	width:570px;
-	border:1px solid gray;
+	width:565px;
 	height:320px;
+	margin-left:6px;
 }
 .banner ._cen ._top{
 	height:205px;
-	border-bottom:1px solid gray;
+	position:relative;
 }
+.banner ._cen ._buttom img{
+	display: inline;
+	float:left;
+}
+	
+.banner ._cen ._top ol li{
+	position:absolute;
+}
+.banner ._cen .ab{
+	position:absolute;
+	width:40px;
+	height:60px;
+	color:white;
+	top:40%;
+	left:0;
+	background:rgb(0,0,0,0.5);
+	z-index:10;
+	font-size:35px;
+	line-height: 60px;
+	text-align: center;
+	display: none;
+}
+.banner ._cen .b{
+	position:absolute;
+	width:40px;
+	height:60px;
+	color:white;
+	top:40%;
+	left:520px;
+	background:rgb(0,0,0,0.5);
+	z-index:10;
+	font-size:35px;
+	line-height: 60px;
+	text-align: center;
+	display: none;
+
+}
+.banner ._cen ._top ul{
+	position:relative;
+	top:185px;
+	left:220px;
+	z-index:2;
+}
+.banner ._cen ._top ul li{
+	float:left;
+	width:33px;
+	height:8px;
+	margin:1px;
+	background:rgb(0,0,0,0.5)
+}
+
+.banner ._cen ._top ul .active{
+	background:rgb(255,0,0,0.5);
+}
+
 .banner ._rig{
 	float:left;
 	width:187px;
-	border:1px solid gray;
 	height:320px;
-} */
-
-
+}
+.banner ._rig img:nth-child(1){
+	height:91px;
+	margin-bottom:8px;
+}
+.banner ._rig img:nth-child(2){
+	height:212px;
+	width:186px;
+}
 
 
 
